@@ -1,0 +1,22 @@
+DATABASE
+a. A database is a place to store tables in MySQL.
+b. If we assume a table in MySQL is a file, then a database is the folder, where we can store many tables in one database.
+c. Usually, we create one database for one type of application. Although one application can use more than one database, in general one application uses one database.
+
+Create Database
+create database database_name;
+Ex. create database sales;
+
+View All Databases
+show databases;
+
+Delete Database
+drop database database_name;
+Ex. drop database sales;
+
+Choose Database
+use database_name;
+Ex. use sales;
+
+After creating a command, run it by pressing Ctrl+Enter while the sentence is selected, or place the cursor at the end of the command
+If you have finished the task and want to continue tomorrow, you must activate the database again.
